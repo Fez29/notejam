@@ -4,9 +4,9 @@
     <?= $this->Html->charset() ?>
     <title><?= $this->fetch('title') ?></title>
 
-    <?= $this->Html->css('http://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/base.min.css') ?>
-    <?= $this->Html->css('http://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/skeleton.min.css') ?>
-    <?= $this->Html->css('http://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/layout.css') ?>
+    <?= $this->Html->css('https://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/base.min.css') ?>
+    <?= $this->Html->css('https://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/skeleton.min.css') ?>
+    <?= $this->Html->css('https://cdnjs.cloudflare.com/ajax/libs/skeleton/1.2/layout.css') ?>
     <?= $this->Html->css('style.css') ?>
 
     <?= $this->fetch('css') ?>

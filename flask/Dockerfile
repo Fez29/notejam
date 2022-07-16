@@ -4,7 +4,7 @@ FROM python:2.7
 
 COPY ./requirements.txt .
 
-RUN pip install -r ./requirements.txt && apt install awscli -y
+RUN pip install -r ./requirements.txt
 
 COPY . .
 
