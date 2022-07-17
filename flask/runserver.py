@@ -62,7 +62,7 @@ else:
 database_secrets = json.loads(get_secret_value_response['SecretString'])
 
 app.config['SQLALCHEMY_DATABASE_URI'] =\
-        ('mysql://{ENV_username}:{ENV_password}@{ENV_server}:{ENV_port}/{ENV_database}}'.format(
+        ('mysql://{ENV_username}:{ENV_password}@{ENV_server}:{ENV_port}/{ENV_database}'.format(
             ENV_username = os.environ['mySql_Username'],
             ENV_password = database_secrets['password'],
             ENV_server = os.environ['mySql_Server'],
